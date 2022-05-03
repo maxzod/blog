@@ -1,0 +1,10 @@
+name: intro_to_unit_testing
+description: example for staring in unit testing
+version: 1.0.0
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dev_dependencies:
+  lints: ^1.0.0
+  test: ^1.21.1
