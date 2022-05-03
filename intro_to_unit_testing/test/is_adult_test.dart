@@ -15,4 +15,17 @@ void main() {
       expect(isOldEnough, true);
     },
   );
+  test(
+    'when age is not older than 18 returns false',
+    () {
+      // arange
+      final DateTime dob = DateTime(2010, 2, 1);
+
+      // act
+      final bool isOldEnough = isAdult(dob);
+
+      // assert
+      expect(isOldEnough, false);
+    },
+  );
 }
